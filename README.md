@@ -101,7 +101,7 @@ http://localhost:3000
 ## 🔎 Rotas da API
 
 ### 📌 Clientes
-
+```bash
 | Método |     Rota      |     Descrição     |
 |--------|---------------|-------------------|
 | POST   | /clients      | Criar cliente     |
@@ -109,6 +109,7 @@ http://localhost:3000
 | GET    | /clients/{id} | Buscar por ID     |   
 | PUT    | /clients/{id} | Atualizar cliente |
 | DELETE | /clients/{id} | Deletar cliente   |
+```
 
 ## 🧠 Aprendizados com o Projeto
 
