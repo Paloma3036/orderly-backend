@@ -1,50 +1,57 @@
-<!-- README atualizado -->
-# Orderly Backend 🧩
+# Orderly Backend API 📝
 
-API RESTful desenvolvida em **Node.js** com foco em **boas práticas de backend**, incluindo autenticação JWT, controle de acesso por roles, estrutura modular e **testes automatizados com Jest**.
+API RESTful desenvolvida em **JavaScript (Node.js)** para gerenciamento de clientes, produtos, pedidos e transações, com autenticação via JWT e arquitetura organizada seguindo boas práticas de backend.
 
-Este projeto faz parte da construção de um portfólio voltado para **vagas de estágio e desenvolvedor(a) júnior**
+Este projeto faz parte do meu portfólio e representa a evolução de uma API básica para um nível **intermediário**, com foco em organização, segurança e escalabilidade.
 
-## 🚀 Tecnologias Utilizadas
+# Stack Tecnológica 🧰
 
-* **Node.js** – ambiente de execução JavaScript
-* **Express** – framework para criação de APIs REST
+* **Node.js** – ambiente de execução JavaScript no servidor
+* **Express** – framework minimalista para criação de APIs RESTful
 * **Prisma ORM** – mapeamento objeto-relacional
-* **PostgreSQL** – banco de dados relacional
-* **Thunder Client / Postman** – testes de requisições HTTP
-* **Git & GitHub** – controle de versão
-
+* **PostgreSQL** – banco de dados relacional para persistência dos dados
+* **JWT** – autenticação segura baseada em tokens
+* **bcrypt** – biblioteca para criptografia de senhas
+* **dotenv** – gerenciamento de variáveis de ambiente
+* **cors** – controle de acesso entre diferentes origens 
+* **Jest** – framework de testes automatizados
+* **Supertest** – testes de requisições HTTP em APIs
+* **Thunder Client** – testes de requisições HTTP
+* **Git & GitHub** – controle de versão e hospedagem do repositório
 
 ## 📌 Funcionalidades da API
 
-A API permite o gerenciamento de clientes, contendo as seguintes operações:
+_A API permite o gerenciamento de clientes, oferecendo as seguintes operações:_
 
-* ✅ Criar cliente (POST)
-* 📄 Listar todos os clientes (GET)
-* 🔍 Buscar cliente por ID (GET)
-* ✏️ Atualizar cliente (PUT)
-* 🗑️ Deletar cliente (DELETE)
+- ✅ Criar cliente (POST)
+- 📄 Listar todos os clientes (GET)
+- 🔍 Buscar cliente por ID (GET)
+- ✏️ Atualizar cliente (PUT)
+- 🗑️ Deletar cliente (DELETE)
 
-Todas as operações seguem os princípios do **CRUD**.
+Todas as operações seguem os princípios do **CRUD (Create, Read, Update e Delete)**.
 
 ## ⚙️ Configuração do Ambiente
 
-### 1️⃣ Clonar o repositório
+_Pré-requisitos:_
+- Node.js (v18+)
+- PostgreSQL
+- Git
+
+### 🔹 Clonar o repositório 🔹
 
 ```bash
 git clone https://github.com/Paloma3036/orderly-backend.git
 cd orderly-backend
 ```
 
-
-### 2️⃣ Instalar as dependências
+### 🔹 Instalar as dependências 🔹
 
 ```bash
 npm install
 ```
 
-
-### 3️⃣ Configurar variáveis de ambiente
+### 🔹 Configurar variáveis de ambiente 🔹
 
 Crie um arquivo `.env` na raiz do projeto:
 
@@ -55,14 +62,13 @@ DATABASE_URL="postgresql://usuario:senha@localhost:5432/orderly"
 > ⚠️ Ajuste o usuário, senha e nome do banco conforme sua configuração local.
 
 
-### 4️⃣ Rodar as migrações do Prisma
+### 🔹 Rodar as migrações do Prisma 🔹
 
 ```bash
 npx prisma migrate dev
 ```
 
-
-### 5️⃣ Iniciar o servidor
+### 🔹 Iniciar o servidor 🔹
 
 ```bash
 node src/index.js
