@@ -122,8 +122,11 @@ http://localhost:3000
 
 
 👩‍💻 Autora
+```mb
 Projeto desenvolvido por Paloma Araujo;
 Estudante de Análise e Desenvolvimento de Sistemas, com foco em backend, segurança e computação em nuvem.
-
+```
+```mb
 📄 Licença
 Este projeto é de uso educacional e para fins de portfólio.
+```
