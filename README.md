@@ -1,7 +1,6 @@
 # Orderly Backend API 📝
 
 API RESTful desenvolvida em **JavaScript (Node.js)** para gerenciamento de clientes, produtos, pedidos e transações, com autenticação via JWT e arquitetura organizada seguindo boas práticas de backend.
-
 # Stack Tecnológica 🧰
 🔸 **Node.js** – ambiente de execução JavaScript no servidor
 🔸 **Express** – framework minimalista para criação de APIs RESTful
