@@ -1,6 +1,6 @@
 # Orderly Backend API 📝
 
-API RESTful desenvolvida em **JavaScript (Node.js)** para gerenciamento de clientes, produtos, pedidos e transações, com autenticação via JWT e arquitetura organizada seguindo boas práticas de backend.
+API RESTful desenvolvida em **JavaScript (Node.js)** para gerenciamento de **clientes e produtos**, com autenticação via JWT e arquitetura organizada seguindo boas práticas de backend.
 
 # Stack Tecnológica 🧰
 
@@ -101,7 +101,7 @@ http://localhost:3000
 ## 🔎 Rotas da API
 
 ### 📌 Clientes
-```bash
+```md
 | Método |     Rota      |     Descrição     |
 |--------|---------------|-------------------|
 | POST   | /clients      | Criar cliente     |
@@ -122,11 +122,13 @@ http://localhost:3000
 
 
 👩‍💻 Autora
-```mb
+```md
 Projeto desenvolvido por Paloma Araujo;
 Estudante de Análise e Desenvolvimento de Sistemas, com foco em backend, segurança e computação em nuvem.
 ```
-```mb
+
 📄 Licença
-Este projeto é de uso educacional e para fins de portfólio.
+```md
+Este projeto está licenciado sob a **MIT License**.  
+Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 ```
