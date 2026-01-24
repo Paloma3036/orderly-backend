@@ -2,6 +2,13 @@
 
 API RESTful desenvolvida em **JavaScript (Node.js)** para gerenciamento de **clientes e produtos**, com autenticação via JWT e arquitetura organizada seguindo boas práticas de backend.
 
+## 🚀 Como funciona essa API?
+
+- Cadastro e autenticação de usuários
+- Gerenciamento de clientes
+- Gerenciamento de produtos
+- Controle de acesso por nível de permissão (ADMIN / USER)
+
 # Stack Tecnológica 🧰
 
 - **Node.js** – ambiente de execução JavaScript no servidor
